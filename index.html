@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-favorite songs</title>
+    <link rel="stylesheet" href="style.css">
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img
+                    src="https://res.cloudinary.com/dknw280mr/image/upload/v1705767792/jdszw171cbosbuuhxgge.png"
+                    alt="spotify"> spotify</li>
+            <li>Home</li>
+            <li>About</li>
+            <li>Favourite songs</li>
+        </ul>
+
+    </nav>
+    <div class="container">
+
+        <div class="songslist">
+            <h1>All songs</h1>
+            <div class="songitemcon">
+                <div class="songItem">
+                    <img src="https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/beast-et00311733-13-04-2022-01-25-10.jpg"
+                        alt="1">
+                    <span>Beast Mode</span>
+                    <span class="songListPlay"><span class="timestamp">3:38 <i id="0"
+                                class="fa-regular  songPlayerItem fa-circle-play fa-md"
+                                style="color: #FFD43B;"></i></i></span> </span>
+                </div>
+                <div class="songItem">
+                    <img src="https://res.cloudinary.com/dknw280mr/image/upload/v1666089018/cld-sample-2.jpg" alt="1">
+                    <span>Let me Love in </span>
+                    <span class="songListPlay"><span class="timestamp">5:34 <i id="1"
+                                class="fa-regular songPlayerItem  fa-circle-play fa-md"
+                                style="color: #FFD43B;"></i></i></span> </span>
+                </div>
+                <div class="songItem">
+                    <img src="https://assets.gadgets360cdn.com/pricee/assets/product/202301/Animal_1673270841.jpg"
+                        alt="1">
+                    <span>Yaalo Yaalo</span>
+                    <span class="songListPlay"><span class="timestamp">3:02 <i id="2"
+                                class="fa-regular  songPlayerItem fa-circle-play fa-md"
+                                style="color: #FFD43B;"></i></i></span> </span>
+                </div>
+                <div class="songItem">
+                    <img src="https://assets.gadgets360cdn.com/pricee/assets/product/202301/Animal_1673270841.jpg"
+                        alt="1">
+                    <span>Ammayi</span>
+                    <span class="songListPlay"><span class="timestamp">4:35 <i id="3"
+                                class="fa-regular  songPlayerItem fa-circle-play fa-md"
+                                style="color: #FFD43B;"></i></i></span> </span>
+                </div>
+                <div class="songItem">
+                    <img src="https://assets-in.bmscdn.com/discovery-catalog/events/et00301886-vpwtttdmdt-landscape.jpg"
+                        alt="1">
+                    <span>Soorida</span>
+                    <span class="songListPlay"><span class="timestamp">3:19 <i id="4"
+                                class="fa-regular  songPlayerItem fa-circle-play fa-md"
+                                style="color: #FFD43B;"></i></i></span> </span>
+                </div>
+                <div class="songItem">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/3e/Guntur_Kaaram_film_poster.jpg/220px-Guntur_Kaaram_film_poster.jpg"
+                        alt="1">
+                    <span>Dum Masala</span>
+                    <span class="songListPlay"><span class="timestamp">3:33 <i id="5"
+                                class="fa-regular   songPlayerItem fa-circle-play fa-md"
+                                style="color: #FFD43B;"></i></i></span> </span>
+                </div>
+                <div class="songItem">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/d/d7/RRR_Poster.jpg" alt="1">
+                    <span>Dosti</span>
+                    <span class="songListPlay"><span class="timestamp">5:40 <i id="6"
+                                class="fa-regular  songPlayerItem fa-circle-play fa-md"
+                                style="color: #FFD43B;"></i></i></span> </span>
+                </div>
+
+                <div class="songItem">
+                    <img src="https://cdn.123telugu.com/videosimg/wp-content/uploads/2023/07/maxresdefault-32.jpg"
+                        alt="1">
+                    <span>Samayamma</span>
+                    <span class="songListPlay"><span class="timestamp">3:24<i id="7"
+                                class="fa-regular   songPlayerItem fa-circle-play fa-md"
+                                style="color: #FFD43B;"></i></i></span> </span>
+                </div>
+                <div class="songItem">
+                    <img src="https://tse2.explicit.bing.net/th?id=OIP.yfiJs6jQUF2j_VfGl13M4wHaJQ&pid=Api&P=0&h=180"
+                        alt="1">
+                    <span>O Antava Oo Anthava</span>
+                    <span class="songListPlay"><span class="timestamp">3:43<i id="8"
+                                class="fa-regular   songPlayerItem fa-circle-play fa-md"
+                                style="color: #FFD43B;"></i></i></span> </span>
+                </div>
+                <div class="songItem">
+                    <img src="https://tse2.explicit.bing.net/th?id=OIP.yfiJs6jQUF2j_VfGl13M4wHaJQ&pid=Api&P=0&h=180"
+                        alt="1">
+                    <span>Srivalli</span>
+                    <span class="songListPlay"><span class="timestamp">3:41 <i id="9"
+                                class="fa-regular  songPlayerItem fa-circle-play fa-md"
+                                style="color: #FFD43B;"></i></i></span> </span>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="songbanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myprogressbar" min="0" max="100" value="0">
+        <div class="icons">
+
+            <i class="fa-solid fa-3x fa-backward-step fa-2xl" id="previous" style="color: #FFD43B;"></i>
+
+            <i class="fa-regular fa-3x fa-circle-play fa-2xl" id="masterplay" style="color: #FFD43B;"></i>
+            <i class="fa-solid  fa-3x fa-forward-step fa-2xl" id="next" style="color: #FFD43B;"></i>
+
+
+        </div>
+        <div class="songinfo">
+            <img src="https://res.cloudinary.com/dknw280mr/image/upload/v1705774453/uwzizwowk0sk1kxsqni1.gif"
+                width="42px" alt="" id="gif"><span id="masterinfo">
+                BeastMode
+            </span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/fe14a550b8.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
